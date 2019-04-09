@@ -4,16 +4,20 @@ using UnityEngine;
 
 public class Zetel : MonoBehaviour, IZetel
 {
+    public float forceMultiplier = 10;
     public AnimationCurve curve;
-    public Rigidbody rigidbody;
+    public Rigidbody rigidBody;
     // Start is called before the first frame update
     void Start()
     {
-        if(rigidbody == null)
+        if(rigidBody == null)
         {
-            rigidbody = GetComponent<Rigidbody>();
+            rigidBody = GetComponent<Rigidbody>();
         }
+        rigidBody.AddForce(new Vector3(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360)) * forceMultiplier , ForceMode.Impulse);
+   
     }
+
 
     // Update is called once per frame
     void Update()
@@ -25,6 +29,6 @@ public class Zetel : MonoBehaviour, IZetel
     {
         Debug.Log("hit");
         Vector3 dir = transform.position - vacuumPos;
-        rigidbody.AddForce(-dir * 10, ForceMode.Impulse);
+        rigidBody.AddForce(-dir * forceMultiplier, ForceMode.Impulse);
     }
 }
