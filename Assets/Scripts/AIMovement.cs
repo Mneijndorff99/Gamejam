@@ -5,15 +5,18 @@ using UnityEngine.AI;
 
 public class AIMovement : MonoBehaviour
 {
-    public float radius;
+    public int totalZetels;
+    public GameObject zetel;
+    public List<Transform> wayPoints;
     public Transform gunPos;
     public float fieldOfView = 110;
     public GameObject bullet;
     public NavMeshAgent navMesh;
     public Transform target;
     public float distance;
-    public enum States { Walking, Shooting, Collecting }
+    public enum States { Walking, Shooting}
     public States state;
+
     void Start()
     {
         this.transform.LookAt(target);
@@ -39,10 +42,7 @@ public class AIMovement : MonoBehaviour
                 break;
             case States.Shooting:
                 break;
-            case States.Collecting:
-                break;
         }
-
     }
 
     public void SetState(States newState)
@@ -55,12 +55,9 @@ public class AIMovement : MonoBehaviour
                 Debug.Log(navMesh.destination);
                 break;
             case States.Shooting:
-                StopCoroutine(StartWalking());
                 navMesh.speed = 0f;
                 Debug.Log("State set to shooting");
                 StartCoroutine(StartShooting(2));
-                break;
-            case States.Collecting:
                 break;
         }
 
@@ -118,14 +115,21 @@ public class AIMovement : MonoBehaviour
             Debug.Log("I can't see the player any more and change state to walking");
             SetState(States.Walking);
         }
-        
     }
 
     IEnumerator StartWalking()
     {
-        navMesh.destination = new Vector3(this.transform.position.x + Random.Range(-20, 20), 1, this.transform.position.z + Random.Range(-20, 20));
+        navMesh.destination = wayPoints[Random.Range(0, wayPoints.Count)].position;
         yield return new WaitForSeconds(8);
         StartCoroutine(StartWalking());
+    }
+
+    public void OnDied()
+    {
+        for (int i = 0; i < totalZetels; i++)
+        {
+            Instantiate(zetel, this.transform.position, Quaternion.identity);
+        }
     }
 
     //IEnumerator WaitForNextWaypoint()

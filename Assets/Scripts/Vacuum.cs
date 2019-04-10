@@ -24,6 +24,11 @@ public class Vacuum : MonoBehaviour
             {
                 Stats.instance.AddVote();
             }
+
+            if(character == Characters.Robot)
+            {
+                this.gameObject.GetComponent<AIMovement>().totalZetels++;
+            }
         }
     }
 }

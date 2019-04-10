@@ -8,13 +8,7 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         this.gameObject.GetComponent<Rigidbody>().AddForce(transform.forward * bulletspeed);
-        StartCoroutine(Destroy());
-    }
-
-    IEnumerator Destroy()
-    {
-        yield return new WaitForSeconds(3);
-        Destroy(this.gameObject);
+        Destroy(this.gameObject, 4f);
     }
 
     void OnCollisionEnter(Collision collision)
