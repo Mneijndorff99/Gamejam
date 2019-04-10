@@ -10,37 +10,26 @@ public class Gun
 
     public Gun(int ammo, int clipSize)
     {
-        ammo = this.ammo;
-        clipSize = this.clipSize;
+        this.ammo = ammo;
+        this.clipSize = clipSize;
+        clip = clipSize;
     }
 
-    public void Shoot()
+    public bool Shoot()
     {
-        if(clip < 0)
+        if(clip > 0)
         {
             clip -= 1;
+            return true;
         }
         else
         {
+            return false;
             //clip is empty sound or something;
         }
     }
     public void Reload()
     {
-        if(clip < clipSize)
-        {
-            int missingAmmo = clip - clipSize;
-            if (ammo >= missingAmmo)
-            {
-                ammo -= missingAmmo;
-                clip += missingAmmo;
-            }
-            else
-            {
-                if(ammo > 0)
-                clip += ammo;
-            }
-                
-        }
+        clip = clipSize;
     }
 }
