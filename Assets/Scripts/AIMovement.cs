@@ -15,7 +15,7 @@ public class AIMovement : MonoBehaviour
     void Start()
     {
         this.transform.LookAt(target);
-        navMesh.autoBraking = false;
+        navMesh.autoBraking = true;
         SetState(States.Walking);
     }
 
@@ -32,10 +32,10 @@ public class AIMovement : MonoBehaviour
             SetState(States.Shooting);
         }
 
-        if (!canSee)
-        {
-            SetState(States.Walking);
-        }
+        //if (!canSee)
+        //{
+        //    SetState(States.Walking);
+        //}
 
         switch (state)
         {
@@ -54,9 +54,13 @@ public class AIMovement : MonoBehaviour
         switch (newState)
         {
             case States.Walking:
-                //navMesh.destination = target.position;
+                navMesh.speed = 5f;
+                StartCoroutine(StartWalking());
+                Debug.Log(navMesh.destination);
                 break;
             case States.Shooting:
+                StopCoroutine(StartWalking());
+                navMesh.speed = 0f;
                 Debug.Log("State set to shooting");
                 ShootBullet(target);
                 break;
@@ -84,7 +88,11 @@ public class AIMovement : MonoBehaviour
         Transform tempTarget = target;
         this.transform.LookAt(tempTarget);
         Vector3 direction = tempTarget.transform.position - transform.position;
-        Instantiate(bullet, this.transform.position, Quaternion.identity);
+        if (CanSeeTarget())
+        {
+            StartCoroutine(CreatBullets());
+        }
+        
     }
 
     public bool CanSeeTarget()
@@ -118,6 +126,20 @@ public class AIMovement : MonoBehaviour
             //Debug.Log("I See nothing");
             return false;
         }
+    }
+
+    IEnumerator CreatBullets()
+    {
+        Instantiate(bullet, this.transform.position, Quaternion.identity);
+        yield return new WaitForSeconds(2);
+        StartCoroutine(CreatBullets());
+    }
+
+    IEnumerator StartWalking()
+    {
+        navMesh.destination = new Vector3(Random.Range(-24f, 24f), Random.Range(1, 1), Random.Range(-24f, 24f));
+        yield return new WaitForSeconds(8);
+        StartCoroutine(StartWalking());
     }
 
     //IEnumerator WaitForNextWaypoint()
