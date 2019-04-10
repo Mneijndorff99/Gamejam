@@ -2434,6 +2434,7 @@ MonoBehaviour:
   cube: {fileID: 8067335431354239868, guid: 9d2a2573b922a0a4aa4a0fb742d2512f, type: 3}
   position: {fileID: 1561623351}
   votes: 0
+  score: {fileID: 0}
 --- !u!4 &375604364
 Transform:
   m_ObjectHideFlags: 0
@@ -12661,7 +12662,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100530, guid: 41fa76414a0fadf469a3839096909194, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400530, guid: 41fa76414a0fadf469a3839096909194, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16691,6 +16692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 154090, guid: 3a0112d0aa8ae754b9b2c418e6ce304b, type: 3}
+  ammo: {fileID: 0}
 --- !u!114 &1851680184
 MonoBehaviour:
   m_ObjectHideFlags: 0
