@@ -27,7 +27,11 @@ public class Vacuum : MonoBehaviour
 
             if(character == Characters.Robot)
             {
-                this.gameObject.GetComponent<AIMovement>().totalZetels++;
+                GameObject p1 = this.transform.parent.gameObject;
+                GameObject p2 = p1.transform.parent.gameObject;
+                p2.GetComponent<AIMovement>().totalZetels++;
+                //transform.transform.parent.GetComponent<AIMovement>().totalZetels++;
+                //this.gameObject.GetComponent<AIMovement>().totalZetels++;
             }
         }
     }
