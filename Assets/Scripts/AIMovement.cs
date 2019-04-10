@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class AIMovement : MonoBehaviour
 {
+    public int health = 100;
     public int totalZetels;
     public GameObject zetel;
     public List<Transform> wayPoints;
@@ -129,6 +130,18 @@ public class AIMovement : MonoBehaviour
         for (int i = 0; i < totalZetels; i++)
         {
             Instantiate(zetel, this.transform.position, Quaternion.identity);
+        }
+        Destroy(this.gameObject);
+    }
+
+    public void GetHit()
+    {
+        int dmg = 50;
+
+        health -= dmg;
+        if(health <= 0)
+        {
+            OnDied();
         }
     }
 
