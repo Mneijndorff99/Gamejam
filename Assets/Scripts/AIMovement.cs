@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class AIMovement : MonoBehaviour
 {
+    public float radius;
     public Transform gunPos;
     public float fieldOfView = 110;
     public GameObject bullet;
@@ -23,21 +24,14 @@ public class AIMovement : MonoBehaviour
     void Update()
     {
         distance = Vector3.Distance(target.transform.position, transform.position);
-        
-        //if (!navMesh.pathPending && navMesh.remainingDistance < 0.5f)
-        //    SetState(States.Idle);
+
         bool canSee = CanSeeTarget();
 
-        if (canSee && state == States.Walking)
+        if (canSee && state == States.Walking && distance < 15)
         {
             SetState(States.Shooting);
             canSee = false;
         }
-
-        //if (!canSee)
-        //{
-        //    SetState(States.Walking);
-        //}
 
         switch (state)
         {
@@ -108,6 +102,7 @@ public class AIMovement : MonoBehaviour
 
     IEnumerator StartShooting(int Cooldown)
     {
+        StopCoroutine(StartWalking());
         Transform tempTarget = target;
         Vector3 direction = tempTarget.transform.position - transform.position;
         if (CanSeeTarget())
@@ -128,7 +123,7 @@ public class AIMovement : MonoBehaviour
 
     IEnumerator StartWalking()
     {
-        navMesh.destination = new Vector3(Random.Range(-24f, 24f), Random.Range(1, 1), Random.Range(-24f, 24f));
+        navMesh.destination = new Vector3(this.transform.position.x + Random.Range(-20, 20), 1, this.transform.position.z + Random.Range(-20, 20));
         yield return new WaitForSeconds(8);
         StartCoroutine(StartWalking());
     }
