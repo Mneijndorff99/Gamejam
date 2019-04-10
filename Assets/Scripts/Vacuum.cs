@@ -4,17 +4,8 @@ using UnityEngine;
 
 public class Vacuum : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public enum Characters {Player,Robot}
+    public Characters character;
     private void OnTriggerEnter(Collider other)
     {
         IZetel i = other.gameObject.GetComponent<IZetel>();
@@ -29,6 +20,10 @@ public class Vacuum : MonoBehaviour
         if (i != null)
         {
             Destroy(collision.gameObject);
+            if (character == Characters.Player)
+            {
+                Stats.instance.AddVote();
+            }
         }
     }
 }
