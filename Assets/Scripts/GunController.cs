@@ -22,7 +22,6 @@ public class GunController : MonoBehaviour
         if (pistol.Shoot())
         {
             Instantiate(bulletPrefab, transform.position, transform.rotation);
-            VRTK_ControllerHaptics.TriggerHapticPulse()
         }
     }
     public void Reload()
