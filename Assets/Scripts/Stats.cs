@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Stats : MonoBehaviour
 {
+    public GameObject cube;
+    public Transform position;
     public static Stats instance;
     public int votes;
     void Awake()
@@ -21,7 +23,10 @@ public class Stats : MonoBehaviour
 
     void Start()
     {
-
+        for (int i = 0; i < 300; i++)
+        {
+            Instantiate(cube,position.position,transform.rotation);
+        }
     }
 
     void Update()
