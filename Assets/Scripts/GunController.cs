@@ -8,7 +8,10 @@ public class GunController : MonoBehaviour
 {
     public Gun pistol;
     public GameObject bulletPrefab;
+    public Transform barrelend;
     public TextMesh ammo;
+    public AudioSource gunSoundEmitter;
+    public AudioClip gunSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +28,8 @@ public class GunController : MonoBehaviour
     {
         if (pistol.Shoot())
         {
-            Instantiate(bulletPrefab, transform.position, transform.rotation);
+            Instantiate(bulletPrefab, barrelend.position, barrelend.rotation);
+            gunSoundEmitter.PlayOneShot(gunSound);
         }
     }
     public void Reload()
