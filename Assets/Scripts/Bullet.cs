@@ -7,6 +7,6 @@ public class Bullet : MonoBehaviour
     public int bulletspeed;
     void Start()
     {
-        this.gameObject.GetComponent<Rigidbody>().AddForce(Vector3.right * bulletspeed);
+        this.gameObject.GetComponent<Rigidbody>().AddForce(transform.forward * bulletspeed);
     }
 }
