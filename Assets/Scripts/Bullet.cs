@@ -14,5 +14,10 @@ public class Bullet : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         Destroy(this.gameObject);
+
+        if(collision.gameObject.tag == "Robot")
+        {
+            collision.gameObject.GetComponent<AIMovement>().GetHit();
+        }
     }
 }
