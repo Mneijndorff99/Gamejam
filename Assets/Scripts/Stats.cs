@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Stats : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class Stats : MonoBehaviour
     public Transform position;
     public static Stats instance;
     public int votes;
+    public Text score;
     void Awake()
     {
         if (instance == null)
@@ -31,7 +33,7 @@ public class Stats : MonoBehaviour
 
     void Update()
     {
-        
+        score.text = votes.ToString();
     }
     public void AddVote()
     {
