@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class AIMovement : MonoBehaviour
 {
+    public Transform gunPos;
     public float fieldOfView = 110;
     public GameObject bullet;
     public NavMeshAgent navMesh;
@@ -30,6 +31,7 @@ public class AIMovement : MonoBehaviour
         if (canSee && state == States.Walking)
         {
             SetState(States.Shooting);
+            canSee = false;
         }
 
         //if (!canSee)
@@ -62,37 +64,13 @@ public class AIMovement : MonoBehaviour
                 StopCoroutine(StartWalking());
                 navMesh.speed = 0f;
                 Debug.Log("State set to shooting");
-                ShootBullet(target);
+                StartCoroutine(StartShooting(2));
                 break;
             case States.Collecting:
                 break;
         }
 
         state = newState;
-    }
-
-    public void ShootRay(Transform target)
-    {
-        Transform tempTarget = target;
-        RaycastHit hit;
-        this.transform.LookAt(tempTarget);
-        Vector3 direction = tempTarget.transform.position - transform.position;
-        if (Physics.Raycast(transform.position, direction, out hit))
-        {
-
-        }
-    }
-
-    public void ShootBullet(Transform target)
-    {
-        Transform tempTarget = target;
-        this.transform.LookAt(tempTarget);
-        Vector3 direction = tempTarget.transform.position - transform.position;
-        if (CanSeeTarget())
-        {
-            StartCoroutine(CreatBullets());
-        }
-        
     }
 
     public bool CanSeeTarget()
@@ -128,11 +106,24 @@ public class AIMovement : MonoBehaviour
         }
     }
 
-    IEnumerator CreatBullets()
+    IEnumerator StartShooting(int Cooldown)
     {
-        Instantiate(bullet, this.transform.position, Quaternion.identity);
-        yield return new WaitForSeconds(2);
-        StartCoroutine(CreatBullets());
+        Transform tempTarget = target;
+        Vector3 direction = tempTarget.transform.position - transform.position;
+        if (CanSeeTarget())
+        {
+            this.transform.LookAt(tempTarget);
+            Debug.Log("I still see the player");
+            Instantiate(bullet, gunPos.position, transform.rotation);
+            yield return new WaitForSeconds(Cooldown);
+            StartCoroutine(StartShooting(Cooldown));
+        }
+        else
+        {
+            Debug.Log("I can't see the player any more and change state to walking");
+            SetState(States.Walking);
+        }
+        
     }
 
     IEnumerator StartWalking()
