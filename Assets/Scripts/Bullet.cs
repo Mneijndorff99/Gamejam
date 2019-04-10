@@ -19,5 +19,9 @@ public class Bullet : MonoBehaviour
         {
             collision.gameObject.GetComponent<AIMovement>().GetHit();
         }
+        if (collision.gameObject.tag == "Player")
+        {
+            Stats.instance.GetHit();
+        }
     }
 }
