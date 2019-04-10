@@ -844,11 +844,23 @@ MonoBehaviour:
   health: 100
   totalZetels: 0
   zetel: {fileID: 8067335431354239868, guid: 9d2a2573b922a0a4aa4a0fb742d2512f, type: 3}
-  wayPoints: []
-  gunPos: {fileID: 4719412140266806259}
+  wayPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  gunPos: {fileID: 0}
   fieldOfView: 110
   bullet: {fileID: 5343141302426220504, guid: 9fbdbcfa1414ac9459c00791fa7d289d, type: 3}
-  navMesh: {fileID: 7228768971990661542}
+  navMesh: {fileID: 0}
   target: {fileID: 0}
   distance: 0
   state: 0
