@@ -5,6 +5,7 @@ using UnityEngine;
 public class Zetel : MonoBehaviour, IZetel
 {
     public float forceMultiplier = 10;
+    public float vacuumForce = 10;
     public AnimationCurve curve;
     public Rigidbody rigidBody;
     // Start is called before the first frame update
@@ -29,6 +30,6 @@ public class Zetel : MonoBehaviour, IZetel
     {
         Debug.Log("hit");
         Vector3 dir = transform.position - vacuumPos;
-        rigidBody.AddForce(-dir * forceMultiplier, ForceMode.Impulse);
+        rigidBody.AddForce(-dir * vacuumForce, ForceMode.Impulse);
     }
 }
