@@ -12,6 +12,9 @@ public class GunController : MonoBehaviour
     public TextMesh ammo;
     public AudioSource gunSoundEmitter;
     public AudioClip gunSound;
+    public AudioClip reloadSound;
+    public AudioClip gunEmpty;
+    public ParticleSystem muzzleFlash;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,10 +33,16 @@ public class GunController : MonoBehaviour
         {
             Instantiate(bulletPrefab, barrelend.position, barrelend.rotation);
             gunSoundEmitter.PlayOneShot(gunSound);
+            muzzleFlash.Play(true);
+        }
+        else
+        {
+            gunSoundEmitter.PlayOneShot(gunEmpty);
         }
     }
     public void Reload()
     {
         pistol.Reload();
+        gunSoundEmitter.PlayOneShot(reloadSound);
     }
 }

@@ -5,6 +5,8 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public int bulletspeed;
+    public GameObject sparkSystem;
+
     void Start()
     {
         this.gameObject.GetComponent<Rigidbody>().AddForce(transform.forward * bulletspeed);
@@ -13,6 +15,7 @@ public class Bullet : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+        Instantiate(sparkSystem, gameObject.transform.position, Quaternion.identity);
         Destroy(this.gameObject);
 
         if(collision.gameObject.tag == "Robot")

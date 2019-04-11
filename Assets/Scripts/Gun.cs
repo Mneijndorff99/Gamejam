@@ -7,6 +7,7 @@ public class Gun
     public int ammo;
     public int clip;
     public int clipSize;
+    public bool isEmpty = false;
 
     public Gun(int ammo, int clipSize)
     {
@@ -19,11 +20,13 @@ public class Gun
     {
         if(clip > 0)
         {
+            isEmpty = false;
             clip -= 1;
             return true;
         }
         else
         {
+            isEmpty = true;
             return false;
             //clip is empty sound or something;
         }
@@ -31,5 +34,6 @@ public class Gun
     public void Reload()
     {
         clip = clipSize;
+       
     }
 }

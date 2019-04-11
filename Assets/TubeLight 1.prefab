@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 1273009253263087839}
   m_Layer: 0
   m_Name: TubeLight 1
-  m_TagString: Untagged
+  m_TagString: bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Intensity: 0.8
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5801887, g: 0.87870824, b: 1, a: 1}
   m_Range: 10
   m_Radius: 0.015
   m_Length: 0.012
@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletspeed: 4000
+  sparkSystem: {fileID: 2054265692, guid: ff52e8d19ee828d4ba4b351b91b232fe, type: 3}
 --- !u!65 &1273009253263087839
 BoxCollider:
   m_ObjectHideFlags: 0
