@@ -39,4 +39,13 @@ public class Stats : MonoBehaviour
     {
         votes++;
     }
+    public void GetHit()
+    {
+        int totalLose = Random.Range(2, 5);
+        votes -= totalLose;
+        for (int i = 0; i < totalLose; i++)
+        {
+            Instantiate(cube, GameObject.FindGameObjectWithTag("Player").transform.position, transform.rotation);
+        }
+    }
 }
