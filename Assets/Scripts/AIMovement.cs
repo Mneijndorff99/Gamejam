@@ -17,6 +17,7 @@ public class AIMovement : MonoBehaviour
     public float distance;
     public enum States { Walking, Shooting}
     public States state;
+    public GameObject explosionSystem;
 
     void Start()
     {
@@ -37,7 +38,7 @@ public class AIMovement : MonoBehaviour
             canSee = false;
         }
 
-        switch (state)
+            switch (state)
         {
             case States.Walking:
                 break;
@@ -131,6 +132,7 @@ public class AIMovement : MonoBehaviour
         {
             Instantiate(zetel, this.transform.position, Quaternion.identity);
         }
+        Instantiate(explosionSystem, this.transform.position, Quaternion.identity);
         Destroy(this.gameObject);
     }
 
@@ -144,6 +146,15 @@ public class AIMovement : MonoBehaviour
             OnDied();
         }
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "bullet")
+        {
+            GetHit();
+        }
+    }
+
 
     //IEnumerator WaitForNextWaypoint()
     //{
@@ -162,7 +173,7 @@ public class AIMovement : MonoBehaviour
     //            Vector3 destination = wayPoints[Random.Range(0, wayPoints.Count)].transform.position;
     //            Debug.Log(destination);
     //            navMesh.SetDestination(destination);
-                
+
     //        }
 
     //        yield return new WaitForSeconds(Random.Range(20, 30));
