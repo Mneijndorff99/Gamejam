@@ -7,6 +7,8 @@ public class Stats : MonoBehaviour
 {
     public GameObject cube;
     public Transform position;
+    public Transform spawnPos;
+    public GameObject robot;
     public static Stats instance;
     public int votes;
     public Text score;
