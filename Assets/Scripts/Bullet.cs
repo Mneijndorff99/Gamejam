@@ -21,10 +21,12 @@ public class Bullet : MonoBehaviour
         if(collision.gameObject.tag == "Robot")
         {
             collision.gameObject.GetComponent<AIMovement>().GetHit();
+            Destroy(this.gameObject);
         }
         if (collision.gameObject.tag == "Player")
         {
             Stats.instance.GetHit();
+            Destroy(this.gameObject);
         }
     }
 }
