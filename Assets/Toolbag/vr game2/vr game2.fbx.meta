@@ -1,0 +1,1620 @@
+fileFormatVersion: 2
+guid: cef463fd2b6cfb8c110867ea22fd4297
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 010
+    100002: 012
+    100004: 013
+    100006: 014
+    100008: 015
+    100010: 016
+    100012: 017
+    100014: 018
+    100016: 019
+    100018: 020
+    100020: 028
+    100022: 029
+    100024: 030
+    100026: 031
+    100028: 032
+    100030: 033
+    100032: Box001
+    100034: Box001 1
+    100036: Box012
+    100038: Box013
+    100040: Box014
+    100042: Box015
+    100044: Box016
+    100046: Box017
+    100048: Box018
+    100050: Box019
+    100052: Box020
+    100054: Box021
+    100056: Box022
+    100058: Box023
+    100060: Box024
+    100062: Box025
+    100064: Box026
+    100066: Box027
+    100068: Box028
+    100070: Box029
+    100072: Box030
+    100074: Box031
+    100076: Box032
+    100078: Box033
+    100080: Box034
+    100082: Box035
+    100084: Box050
+    100086: Box051
+    100088: Box052
+    100090: Box057
+    100092: Box076
+    100094: Box077
+    100096: Box078
+    100098: Box079
+    100100: Box080
+    100102: Box081
+    100104: Box082
+    100106: Box083
+    100108: Box084
+    100110: Box085
+    100112: Box086
+    100114: Box087
+    100116: Box088
+    100118: Box089
+    100120: Box090
+    100122: Box091
+    100124: Box092
+    100126: Box093
+    100128: Box094
+    100130: Box095
+    100132: Box096
+    100134: Box097
+    100136: Box098
+    100138: brug
+    100140: brug 1
+    100142: brug 10
+    100144: brug 11
+    100146: brug 12
+    100148: brug 13
+    100150: brug 14
+    100152: brug 15
+    100154: brug 16
+    100156: brug 17
+    100158: brug 18
+    100160: brug 19
+    100162: brug 2
+    100164: brug 20
+    100166: brug 21
+    100168: brug 22
+    100170: brug 23
+    100172: brug 3
+    100174: brug 4
+    100176: brug 5
+    100178: brug 6
+    100180: brug 7
+    100182: brug 8
+    100184: brug 9
+    100186: brug_platvorm
+    100188: brug_platvorm 1
+    100190: buis
+    100192: buis 1
+    100194: buis 10
+    100196: buis 11
+    100198: buis 12
+    100200: buis 13
+    100202: buis 14
+    100204: buis 15
+    100206: buis 2
+    100208: buis 3
+    100210: buis 4
+    100212: buis 5
+    100214: buis 6
+    100216: buis 7
+    100218: buis 8
+    100220: buis 9
+    100222: computer
+    100224: computer 1
+    100226: computer 2
+    100228: Cylinder013
+    100230: Cylinder040
+    100232: Cylinder041
+    100234: Cylinder042
+    100236: Cylinder043
+    100238: Cylinder044
+    100240: Cylinder045
+    100242: Cylinder046
+    100244: Cylinder047
+    100246: Cylinder050
+    100248: Cylinder051
+    100250: Cylinder054
+    100252: Cylinder055
+    100254: Cylinder058
+    100256: Cylinder059
+    100258: Cylinder060
+    100260: Cylinder061
+    100262: Cylinder062
+    100264: Cylinder063
+    100266: Cylinder064
+    100268: Cylinder065
+    100270: Cylinder066
+    100272: Cylinder067
+    100274: Cylinder068
+    100276: Cylinder068 1
+    100278: Cylinder069
+    100280: Cylinder069 1
+    100282: Cylinder070
+    100284: Cylinder071
+    100286: Cylinder072
+    100288: Cylinder073
+    100290: Cylinder074
+    100292: Cylinder075
+    100294: Cylinder076
+    100296: Cylinder077
+    100298: Cylinder078
+    100300: Cylinder079
+    100302: Cylinder080
+    100304: Cylinder081
+    100306: Cylinder082
+    100308: Cylinder083
+    100310: Cylinder084
+    100312: Cylinder085
+    100314: Cylinder116
+    100316: Cylinder117
+    100318: Cylinder118
+    100320: Cylinder119
+    100322: Cylinder120
+    100324: Cylinder121
+    100326: Cylinder122
+    100328: Cylinder123
+    100330: Cylinder124
+    100332: Cylinder125
+    100334: Cylinder126
+    100336: Cylinder127
+    100338: Cylinder128
+    100340: Cylinder129
+    100342: Cylinder130
+    100344: Cylinder131
+    100346: Cylinder132
+    100348: Cylinder133
+    100350: Cylinder134
+    100352: Cylinder135
+    100354: Cylinder136
+    100356: Cylinder137
+    100358: Cylinder138
+    100360: Cylinder139
+    100362: Cylinder140
+    100364: Cylinder141
+    100366: Cylinder142
+    100368: Cylinder143
+    100370: Cylinder144
+    100372: Cylinder145
+    100374: Cylinder146
+    100376: Cylinder147
+    100378: Default
+    100380: Default 1
+    100382: Default 10
+    100384: Default 11
+    100386: Default 12
+    100388: Default 13
+    100390: Default 14
+    100392: Default 15
+    100394: Default 16
+    100396: Default 17
+    100398: Default 18
+    100400: Default 19
+    100402: Default 2
+    100404: Default 20
+    100406: Default 21
+    100408: Default 22
+    100410: Default 23
+    100412: Default 24
+    100414: Default 25
+    100416: Default 3
+    100418: Default 4
+    100420: Default 5
+    100422: Default 6
+    100424: Default 7
+    100426: Default 8
+    100428: Default 9
+    100430: deur
+    100432: deur 1
+    100434: Deuropening
+    100436: Deuropening001
+    100438: dome
+    100440: doom
+    100442: doom 1
+    100444: doom_dak
+    100446: doom_dak 1
+    100448: einde
+    100450: einde 1
+    100452: hologram
+    100454: hologram 1
+    100456: hologram 2
+    100458: Main Camera
+    100460: muur
+    100462: muur 1
+    100464: muur 2
+    100466: muur 3
+    100468: muur 4
+    100470: muur 5
+    100472: muur 6
+    100474: muur 7
+    100476: Object003
+    100478: Object004
+    100480: Object005
+    100482: Object531
+    100484: Object532
+    100486: Object533
+    100488: Object534
+    100490: Object535
+    100492: Object536
+    100494: Object537
+    100496: Object540
+    100498: Object541
+    100500: Object542
+    100502: Object552
+    100504: Object553
+    100506: Object554
+    100508: Object571
+    100510: Object572
+    100512: Object580
+    100514: Object585
+    100516: Object586
+    100518: Object587
+    100520: Object588
+    100522: Object589
+    100524: Object610
+    100526: Object611
+    100528: Object612
+    100530: Object613
+    100532: Object614
+    100534: Object615
+    100536: Object616
+    100538: Object617
+    100540: Object618
+    100542: Object619
+    100544: Object620
+    100546: Object621
+    100548: Object622
+    100550: Object623
+    100552: Object624
+    100554: Object625
+    100556: Object626
+    100558: Object627
+    100560: Object628
+    100562: Object629
+    100564: Object630
+    100566: Object631
+    100568: Object632
+    100570: Object633
+    100572: Object634
+    100574: pilaar
+    100576: pilaar 1
+    100578: pilaar 10
+    100580: pilaar 11
+    100582: pilaar 12
+    100584: pilaar 13
+    100586: pilaar 14
+    100588: pilaar 15
+    100590: pilaar 16
+    100592: pilaar 17
+    100594: pilaar 18
+    100596: pilaar 19
+    100598: pilaar 2
+    100600: pilaar 20
+    100602: pilaar 21
+    100604: pilaar 22
+    100606: pilaar 23
+    100608: pilaar 24
+    100610: pilaar 3
+    100612: pilaar 4
+    100614: pilaar 5
+    100616: pilaar 6
+    100618: pilaar 7
+    100620: pilaar 8
+    100622: pilaar 9
+    100624: Plane008
+    100626: Plane009
+    100628: Plane010
+    100630: Plane011
+    100632: Plane012
+    100634: Plane016
+    100636: Plane017
+    100638: Plane018
+    100640: platvorm
+    100642: platvorm 1
+    100644: Render
+    100646: sc_fi_muur_1
+    100648: sc_fi_muur_1 1
+    100650: sc_fi_muur_1 10
+    100652: sc_fi_muur_1 11
+    100654: sc_fi_muur_1 12
+    100656: sc_fi_muur_1 13
+    100658: sc_fi_muur_1 2
+    100660: sc_fi_muur_1 3
+    100662: sc_fi_muur_1 4
+    100664: sc_fi_muur_1 5
+    100666: sc_fi_muur_1 6
+    100668: sc_fi_muur_1 7
+    100670: sc_fi_muur_1 8
+    100672: sc_fi_muur_1 9
+    100674: sci_fi_buis_midden
+    100676: sci_fi_buis_midden 1
+    100678: sci_fi_buis_midden 10
+    100680: sci_fi_buis_midden 11
+    100682: sci_fi_buis_midden 12
+    100684: sci_fi_buis_midden 2
+    100686: sci_fi_buis_midden 3
+    100688: sci_fi_buis_midden 4
+    100690: sci_fi_buis_midden 5
+    100692: sci_fi_buis_midden 6
+    100694: sci_fi_buis_midden 7
+    100696: sci_fi_buis_midden 8
+    100698: sci_fi_buis_midden 9
+    100700: sci_fi_buis_onder
+    100702: sci_fi_buis_onder 1
+    100704: sci_fi_buis_onder 10
+    100706: sci_fi_buis_onder 11
+    100708: sci_fi_buis_onder 12
+    100710: sci_fi_buis_onder 13
+    100712: sci_fi_buis_onder 14
+    100714: sci_fi_buis_onder 15
+    100716: sci_fi_buis_onder 16
+    100718: sci_fi_buis_onder 17
+    100720: sci_fi_buis_onder 18
+    100722: sci_fi_buis_onder 19
+    100724: sci_fi_buis_onder 2
+    100726: sci_fi_buis_onder 20
+    100728: sci_fi_buis_onder 21
+    100730: sci_fi_buis_onder 22
+    100732: sci_fi_buis_onder 23
+    100734: sci_fi_buis_onder 24
+    100736: sci_fi_buis_onder 25
+    100738: sci_fi_buis_onder 26
+    100740: sci_fi_buis_onder 27
+    100742: sci_fi_buis_onder 3
+    100744: sci_fi_buis_onder 4
+    100746: sci_fi_buis_onder 5
+    100748: sci_fi_buis_onder 6
+    100750: sci_fi_buis_onder 7
+    100752: sci_fi_buis_onder 8
+    100754: sci_fi_buis_onder 9
+    100756: sci_fi_buis_zijkant
+    100758: sci_fi_buis_zijkant 1
+    100760: sci_fi_buis_zijkant 10
+    100762: sci_fi_buis_zijkant 11
+    100764: sci_fi_buis_zijkant 12
+    100766: sci_fi_buis_zijkant 13
+    100768: sci_fi_buis_zijkant 2
+    100770: sci_fi_buis_zijkant 3
+    100772: sci_fi_buis_zijkant 4
+    100774: sci_fi_buis_zijkant 5
+    100776: sci_fi_buis_zijkant 6
+    100778: sci_fi_buis_zijkant 7
+    100780: sci_fi_buis_zijkant 8
+    100782: sci_fi_buis_zijkant 9
+    100784: sci_fi_muur_2
+    100786: sci_fi_muur_2 1
+    100788: sci_fi_pilaar
+    100790: sci_fi_pilaar 1
+    100792: sci_fi_pilaar 10
+    100794: sci_fi_pilaar 11
+    100796: sci_fi_pilaar 12
+    100798: sci_fi_pilaar 13
+    100800: sci_fi_pilaar 14
+    100802: sci_fi_pilaar 2
+    100804: sci_fi_pilaar 3
+    100806: sci_fi_pilaar 4
+    100808: sci_fi_pilaar 5
+    100810: sci_fi_pilaar 6
+    100812: sci_fi_pilaar 7
+    100814: sci_fi_pilaar 8
+    100816: sci_fi_pilaar 9
+    100818: Sky
+    100820: vr game
+    100822: //RootNode
+    400000: 010
+    400002: 012
+    400004: 013
+    400006: 014
+    400008: 015
+    400010: 016
+    400012: 017
+    400014: 018
+    400016: 019
+    400018: 020
+    400020: 028
+    400022: 029
+    400024: 030
+    400026: 031
+    400028: 032
+    400030: 033
+    400032: Box001
+    400034: Box001 1
+    400036: Box012
+    400038: Box013
+    400040: Box014
+    400042: Box015
+    400044: Box016
+    400046: Box017
+    400048: Box018
+    400050: Box019
+    400052: Box020
+    400054: Box021
+    400056: Box022
+    400058: Box023
+    400060: Box024
+    400062: Box025
+    400064: Box026
+    400066: Box027
+    400068: Box028
+    400070: Box029
+    400072: Box030
+    400074: Box031
+    400076: Box032
+    400078: Box033
+    400080: Box034
+    400082: Box035
+    400084: Box050
+    400086: Box051
+    400088: Box052
+    400090: Box057
+    400092: Box076
+    400094: Box077
+    400096: Box078
+    400098: Box079
+    400100: Box080
+    400102: Box081
+    400104: Box082
+    400106: Box083
+    400108: Box084
+    400110: Box085
+    400112: Box086
+    400114: Box087
+    400116: Box088
+    400118: Box089
+    400120: Box090
+    400122: Box091
+    400124: Box092
+    400126: Box093
+    400128: Box094
+    400130: Box095
+    400132: Box096
+    400134: Box097
+    400136: Box098
+    400138: brug
+    400140: brug 1
+    400142: brug 10
+    400144: brug 11
+    400146: brug 12
+    400148: brug 13
+    400150: brug 14
+    400152: brug 15
+    400154: brug 16
+    400156: brug 17
+    400158: brug 18
+    400160: brug 19
+    400162: brug 2
+    400164: brug 20
+    400166: brug 21
+    400168: brug 22
+    400170: brug 23
+    400172: brug 3
+    400174: brug 4
+    400176: brug 5
+    400178: brug 6
+    400180: brug 7
+    400182: brug 8
+    400184: brug 9
+    400186: brug_platvorm
+    400188: brug_platvorm 1
+    400190: buis
+    400192: buis 1
+    400194: buis 10
+    400196: buis 11
+    400198: buis 12
+    400200: buis 13
+    400202: buis 14
+    400204: buis 15
+    400206: buis 2
+    400208: buis 3
+    400210: buis 4
+    400212: buis 5
+    400214: buis 6
+    400216: buis 7
+    400218: buis 8
+    400220: buis 9
+    400222: computer
+    400224: computer 1
+    400226: computer 2
+    400228: Cylinder013
+    400230: Cylinder040
+    400232: Cylinder041
+    400234: Cylinder042
+    400236: Cylinder043
+    400238: Cylinder044
+    400240: Cylinder045
+    400242: Cylinder046
+    400244: Cylinder047
+    400246: Cylinder050
+    400248: Cylinder051
+    400250: Cylinder054
+    400252: Cylinder055
+    400254: Cylinder058
+    400256: Cylinder059
+    400258: Cylinder060
+    400260: Cylinder061
+    400262: Cylinder062
+    400264: Cylinder063
+    400266: Cylinder064
+    400268: Cylinder065
+    400270: Cylinder066
+    400272: Cylinder067
+    400274: Cylinder068
+    400276: Cylinder068 1
+    400278: Cylinder069
+    400280: Cylinder069 1
+    400282: Cylinder070
+    400284: Cylinder071
+    400286: Cylinder072
+    400288: Cylinder073
+    400290: Cylinder074
+    400292: Cylinder075
+    400294: Cylinder076
+    400296: Cylinder077
+    400298: Cylinder078
+    400300: Cylinder079
+    400302: Cylinder080
+    400304: Cylinder081
+    400306: Cylinder082
+    400308: Cylinder083
+    400310: Cylinder084
+    400312: Cylinder085
+    400314: Cylinder116
+    400316: Cylinder117
+    400318: Cylinder118
+    400320: Cylinder119
+    400322: Cylinder120
+    400324: Cylinder121
+    400326: Cylinder122
+    400328: Cylinder123
+    400330: Cylinder124
+    400332: Cylinder125
+    400334: Cylinder126
+    400336: Cylinder127
+    400338: Cylinder128
+    400340: Cylinder129
+    400342: Cylinder130
+    400344: Cylinder131
+    400346: Cylinder132
+    400348: Cylinder133
+    400350: Cylinder134
+    400352: Cylinder135
+    400354: Cylinder136
+    400356: Cylinder137
+    400358: Cylinder138
+    400360: Cylinder139
+    400362: Cylinder140
+    400364: Cylinder141
+    400366: Cylinder142
+    400368: Cylinder143
+    400370: Cylinder144
+    400372: Cylinder145
+    400374: Cylinder146
+    400376: Cylinder147
+    400378: Default
+    400380: Default 1
+    400382: Default 10
+    400384: Default 11
+    400386: Default 12
+    400388: Default 13
+    400390: Default 14
+    400392: Default 15
+    400394: Default 16
+    400396: Default 17
+    400398: Default 18
+    400400: Default 19
+    400402: Default 2
+    400404: Default 20
+    400406: Default 21
+    400408: Default 22
+    400410: Default 23
+    400412: Default 24
+    400414: Default 25
+    400416: Default 3
+    400418: Default 4
+    400420: Default 5
+    400422: Default 6
+    400424: Default 7
+    400426: Default 8
+    400428: Default 9
+    400430: deur
+    400432: deur 1
+    400434: Deuropening
+    400436: Deuropening001
+    400438: dome
+    400440: doom
+    400442: doom 1
+    400444: doom_dak
+    400446: doom_dak 1
+    400448: einde
+    400450: einde 1
+    400452: hologram
+    400454: hologram 1
+    400456: hologram 2
+    400458: Main Camera
+    400460: muur
+    400462: muur 1
+    400464: muur 2
+    400466: muur 3
+    400468: muur 4
+    400470: muur 5
+    400472: muur 6
+    400474: muur 7
+    400476: Object003
+    400478: Object004
+    400480: Object005
+    400482: Object531
+    400484: Object532
+    400486: Object533
+    400488: Object534
+    400490: Object535
+    400492: Object536
+    400494: Object537
+    400496: Object540
+    400498: Object541
+    400500: Object542
+    400502: Object552
+    400504: Object553
+    400506: Object554
+    400508: Object571
+    400510: Object572
+    400512: Object580
+    400514: Object585
+    400516: Object586
+    400518: Object587
+    400520: Object588
+    400522: Object589
+    400524: Object610
+    400526: Object611
+    400528: Object612
+    400530: Object613
+    400532: Object614
+    400534: Object615
+    400536: Object616
+    400538: Object617
+    400540: Object618
+    400542: Object619
+    400544: Object620
+    400546: Object621
+    400548: Object622
+    400550: Object623
+    400552: Object624
+    400554: Object625
+    400556: Object626
+    400558: Object627
+    400560: Object628
+    400562: Object629
+    400564: Object630
+    400566: Object631
+    400568: Object632
+    400570: Object633
+    400572: Object634
+    400574: pilaar
+    400576: pilaar 1
+    400578: pilaar 10
+    400580: pilaar 11
+    400582: pilaar 12
+    400584: pilaar 13
+    400586: pilaar 14
+    400588: pilaar 15
+    400590: pilaar 16
+    400592: pilaar 17
+    400594: pilaar 18
+    400596: pilaar 19
+    400598: pilaar 2
+    400600: pilaar 20
+    400602: pilaar 21
+    400604: pilaar 22
+    400606: pilaar 23
+    400608: pilaar 24
+    400610: pilaar 3
+    400612: pilaar 4
+    400614: pilaar 5
+    400616: pilaar 6
+    400618: pilaar 7
+    400620: pilaar 8
+    400622: pilaar 9
+    400624: Plane008
+    400626: Plane009
+    400628: Plane010
+    400630: Plane011
+    400632: Plane012
+    400634: Plane016
+    400636: Plane017
+    400638: Plane018
+    400640: platvorm
+    400642: platvorm 1
+    400644: Render
+    400646: sc_fi_muur_1
+    400648: sc_fi_muur_1 1
+    400650: sc_fi_muur_1 10
+    400652: sc_fi_muur_1 11
+    400654: sc_fi_muur_1 12
+    400656: sc_fi_muur_1 13
+    400658: sc_fi_muur_1 2
+    400660: sc_fi_muur_1 3
+    400662: sc_fi_muur_1 4
+    400664: sc_fi_muur_1 5
+    400666: sc_fi_muur_1 6
+    400668: sc_fi_muur_1 7
+    400670: sc_fi_muur_1 8
+    400672: sc_fi_muur_1 9
+    400674: sci_fi_buis_midden
+    400676: sci_fi_buis_midden 1
+    400678: sci_fi_buis_midden 10
+    400680: sci_fi_buis_midden 11
+    400682: sci_fi_buis_midden 12
+    400684: sci_fi_buis_midden 2
+    400686: sci_fi_buis_midden 3
+    400688: sci_fi_buis_midden 4
+    400690: sci_fi_buis_midden 5
+    400692: sci_fi_buis_midden 6
+    400694: sci_fi_buis_midden 7
+    400696: sci_fi_buis_midden 8
+    400698: sci_fi_buis_midden 9
+    400700: sci_fi_buis_onder
+    400702: sci_fi_buis_onder 1
+    400704: sci_fi_buis_onder 10
+    400706: sci_fi_buis_onder 11
+    400708: sci_fi_buis_onder 12
+    400710: sci_fi_buis_onder 13
+    400712: sci_fi_buis_onder 14
+    400714: sci_fi_buis_onder 15
+    400716: sci_fi_buis_onder 16
+    400718: sci_fi_buis_onder 17
+    400720: sci_fi_buis_onder 18
+    400722: sci_fi_buis_onder 19
+    400724: sci_fi_buis_onder 2
+    400726: sci_fi_buis_onder 20
+    400728: sci_fi_buis_onder 21
+    400730: sci_fi_buis_onder 22
+    400732: sci_fi_buis_onder 23
+    400734: sci_fi_buis_onder 24
+    400736: sci_fi_buis_onder 25
+    400738: sci_fi_buis_onder 26
+    400740: sci_fi_buis_onder 27
+    400742: sci_fi_buis_onder 3
+    400744: sci_fi_buis_onder 4
+    400746: sci_fi_buis_onder 5
+    400748: sci_fi_buis_onder 6
+    400750: sci_fi_buis_onder 7
+    400752: sci_fi_buis_onder 8
+    400754: sci_fi_buis_onder 9
+    400756: sci_fi_buis_zijkant
+    400758: sci_fi_buis_zijkant 1
+    400760: sci_fi_buis_zijkant 10
+    400762: sci_fi_buis_zijkant 11
+    400764: sci_fi_buis_zijkant 12
+    400766: sci_fi_buis_zijkant 13
+    400768: sci_fi_buis_zijkant 2
+    400770: sci_fi_buis_zijkant 3
+    400772: sci_fi_buis_zijkant 4
+    400774: sci_fi_buis_zijkant 5
+    400776: sci_fi_buis_zijkant 6
+    400778: sci_fi_buis_zijkant 7
+    400780: sci_fi_buis_zijkant 8
+    400782: sci_fi_buis_zijkant 9
+    400784: sci_fi_muur_2
+    400786: sci_fi_muur_2 1
+    400788: sci_fi_pilaar
+    400790: sci_fi_pilaar 1
+    400792: sci_fi_pilaar 10
+    400794: sci_fi_pilaar 11
+    400796: sci_fi_pilaar 12
+    400798: sci_fi_pilaar 13
+    400800: sci_fi_pilaar 14
+    400802: sci_fi_pilaar 2
+    400804: sci_fi_pilaar 3
+    400806: sci_fi_pilaar 4
+    400808: sci_fi_pilaar 5
+    400810: sci_fi_pilaar 6
+    400812: sci_fi_pilaar 7
+    400814: sci_fi_pilaar 8
+    400816: sci_fi_pilaar 9
+    400818: Sky
+    400820: vr game
+    400822: //RootNode
+    2300000: 010
+    2300002: 012
+    2300004: 013
+    2300006: 014
+    2300008: 015
+    2300010: 016
+    2300012: 017
+    2300014: 018
+    2300016: 019
+    2300018: 020
+    2300020: 028
+    2300022: 029
+    2300024: 030
+    2300026: 031
+    2300028: 032
+    2300030: 033
+    2300032: Box001
+    2300034: Box001 1
+    2300036: Box012
+    2300038: Box013
+    2300040: Box014
+    2300042: Box015
+    2300044: Box016
+    2300046: Box017
+    2300048: Box018
+    2300050: Box019
+    2300052: Box020
+    2300054: Box021
+    2300056: Box022
+    2300058: Box023
+    2300060: Box024
+    2300062: Box025
+    2300064: Box026
+    2300066: Box027
+    2300068: Box028
+    2300070: Box029
+    2300072: Box030
+    2300074: Box031
+    2300076: Box032
+    2300078: Box033
+    2300080: Box034
+    2300082: Box035
+    2300084: Box050
+    2300086: Box051
+    2300088: Box052
+    2300090: Box057
+    2300092: Box076
+    2300094: Box077
+    2300096: Box078
+    2300098: Box079
+    2300100: Box080
+    2300102: Box081
+    2300104: Box082
+    2300106: Box083
+    2300108: Box084
+    2300110: Box085
+    2300112: Box086
+    2300114: Box087
+    2300116: Box088
+    2300118: Box089
+    2300120: Box090
+    2300122: Box091
+    2300124: Box092
+    2300126: Box093
+    2300128: Box094
+    2300130: Box095
+    2300132: Box096
+    2300134: Box097
+    2300136: Box098
+    2300138: Cylinder013
+    2300140: Cylinder040
+    2300142: Cylinder041
+    2300144: Cylinder042
+    2300146: Cylinder043
+    2300148: Cylinder044
+    2300150: Cylinder045
+    2300152: Cylinder046
+    2300154: Cylinder047
+    2300156: Cylinder050
+    2300158: Cylinder051
+    2300160: Cylinder054
+    2300162: Cylinder055
+    2300164: Cylinder058
+    2300166: Cylinder059
+    2300168: Cylinder060
+    2300170: Cylinder061
+    2300172: Cylinder062
+    2300174: Cylinder063
+    2300176: Cylinder064
+    2300178: Cylinder065
+    2300180: Cylinder066
+    2300182: Cylinder067
+    2300184: Cylinder068
+    2300186: Cylinder068 1
+    2300188: Cylinder069
+    2300190: Cylinder069 1
+    2300192: Cylinder070
+    2300194: Cylinder071
+    2300196: Cylinder072
+    2300198: Cylinder073
+    2300200: Cylinder074
+    2300202: Cylinder075
+    2300204: Cylinder076
+    2300206: Cylinder077
+    2300208: Cylinder078
+    2300210: Cylinder079
+    2300212: Cylinder080
+    2300214: Cylinder081
+    2300216: Cylinder082
+    2300218: Cylinder083
+    2300220: Cylinder084
+    2300222: Cylinder085
+    2300224: Cylinder116
+    2300226: Cylinder117
+    2300228: Cylinder118
+    2300230: Cylinder119
+    2300232: Cylinder120
+    2300234: Cylinder121
+    2300236: Cylinder122
+    2300238: Cylinder123
+    2300240: Cylinder124
+    2300242: Cylinder125
+    2300244: Cylinder126
+    2300246: Cylinder127
+    2300248: Cylinder128
+    2300250: Cylinder129
+    2300252: Cylinder130
+    2300254: Cylinder131
+    2300256: Cylinder132
+    2300258: Cylinder133
+    2300260: Cylinder134
+    2300262: Cylinder135
+    2300264: Cylinder136
+    2300266: Cylinder137
+    2300268: Cylinder138
+    2300270: Cylinder139
+    2300272: Cylinder140
+    2300274: Cylinder141
+    2300276: Cylinder142
+    2300278: Cylinder143
+    2300280: Cylinder144
+    2300282: Cylinder145
+    2300284: Cylinder146
+    2300286: Cylinder147
+    2300288: Deuropening
+    2300290: Deuropening001
+    2300292: Object003
+    2300294: Object004
+    2300296: Object005
+    2300298: Object531
+    2300300: Object532
+    2300302: Object533
+    2300304: Object534
+    2300306: Object535
+    2300308: Object536
+    2300310: Object537
+    2300312: Object540
+    2300314: Object541
+    2300316: Object542
+    2300318: Object552
+    2300320: Object553
+    2300322: Object554
+    2300324: Object571
+    2300326: Object572
+    2300328: Object580
+    2300330: Object585
+    2300332: Object586
+    2300334: Object587
+    2300336: Object588
+    2300338: Object589
+    2300340: Object610
+    2300342: Object611
+    2300344: Object612
+    2300346: Object613
+    2300348: Object614
+    2300350: Object615
+    2300352: Object616
+    2300354: Object617
+    2300356: Object618
+    2300358: Object619
+    2300360: Object620
+    2300362: Object621
+    2300364: Object622
+    2300366: Object623
+    2300368: Object624
+    2300370: Object625
+    2300372: Object626
+    2300374: Object627
+    2300376: Object628
+    2300378: Object629
+    2300380: Object630
+    2300382: Object631
+    2300384: Object632
+    2300386: Object633
+    2300388: Object634
+    2300390: Plane008
+    2300392: Plane009
+    2300394: Plane010
+    2300396: Plane011
+    2300398: Plane012
+    2300400: Plane016
+    2300402: Plane017
+    2300404: Plane018
+    3300000: 010
+    3300002: 012
+    3300004: 013
+    3300006: 014
+    3300008: 015
+    3300010: 016
+    3300012: 017
+    3300014: 018
+    3300016: 019
+    3300018: 020
+    3300020: 028
+    3300022: 029
+    3300024: 030
+    3300026: 031
+    3300028: 032
+    3300030: 033
+    3300032: Box001
+    3300034: Box001 1
+    3300036: Box012
+    3300038: Box013
+    3300040: Box014
+    3300042: Box015
+    3300044: Box016
+    3300046: Box017
+    3300048: Box018
+    3300050: Box019
+    3300052: Box020
+    3300054: Box021
+    3300056: Box022
+    3300058: Box023
+    3300060: Box024
+    3300062: Box025
+    3300064: Box026
+    3300066: Box027
+    3300068: Box028
+    3300070: Box029
+    3300072: Box030
+    3300074: Box031
+    3300076: Box032
+    3300078: Box033
+    3300080: Box034
+    3300082: Box035
+    3300084: Box050
+    3300086: Box051
+    3300088: Box052
+    3300090: Box057
+    3300092: Box076
+    3300094: Box077
+    3300096: Box078
+    3300098: Box079
+    3300100: Box080
+    3300102: Box081
+    3300104: Box082
+    3300106: Box083
+    3300108: Box084
+    3300110: Box085
+    3300112: Box086
+    3300114: Box087
+    3300116: Box088
+    3300118: Box089
+    3300120: Box090
+    3300122: Box091
+    3300124: Box092
+    3300126: Box093
+    3300128: Box094
+    3300130: Box095
+    3300132: Box096
+    3300134: Box097
+    3300136: Box098
+    3300138: Cylinder013
+    3300140: Cylinder040
+    3300142: Cylinder041
+    3300144: Cylinder042
+    3300146: Cylinder043
+    3300148: Cylinder044
+    3300150: Cylinder045
+    3300152: Cylinder046
+    3300154: Cylinder047
+    3300156: Cylinder050
+    3300158: Cylinder051
+    3300160: Cylinder054
+    3300162: Cylinder055
+    3300164: Cylinder058
+    3300166: Cylinder059
+    3300168: Cylinder060
+    3300170: Cylinder061
+    3300172: Cylinder062
+    3300174: Cylinder063
+    3300176: Cylinder064
+    3300178: Cylinder065
+    3300180: Cylinder066
+    3300182: Cylinder067
+    3300184: Cylinder068
+    3300186: Cylinder068 1
+    3300188: Cylinder069
+    3300190: Cylinder069 1
+    3300192: Cylinder070
+    3300194: Cylinder071
+    3300196: Cylinder072
+    3300198: Cylinder073
+    3300200: Cylinder074
+    3300202: Cylinder075
+    3300204: Cylinder076
+    3300206: Cylinder077
+    3300208: Cylinder078
+    3300210: Cylinder079
+    3300212: Cylinder080
+    3300214: Cylinder081
+    3300216: Cylinder082
+    3300218: Cylinder083
+    3300220: Cylinder084
+    3300222: Cylinder085
+    3300224: Cylinder116
+    3300226: Cylinder117
+    3300228: Cylinder118
+    3300230: Cylinder119
+    3300232: Cylinder120
+    3300234: Cylinder121
+    3300236: Cylinder122
+    3300238: Cylinder123
+    3300240: Cylinder124
+    3300242: Cylinder125
+    3300244: Cylinder126
+    3300246: Cylinder127
+    3300248: Cylinder128
+    3300250: Cylinder129
+    3300252: Cylinder130
+    3300254: Cylinder131
+    3300256: Cylinder132
+    3300258: Cylinder133
+    3300260: Cylinder134
+    3300262: Cylinder135
+    3300264: Cylinder136
+    3300266: Cylinder137
+    3300268: Cylinder138
+    3300270: Cylinder139
+    3300272: Cylinder140
+    3300274: Cylinder141
+    3300276: Cylinder142
+    3300278: Cylinder143
+    3300280: Cylinder144
+    3300282: Cylinder145
+    3300284: Cylinder146
+    3300286: Cylinder147
+    3300288: Deuropening
+    3300290: Deuropening001
+    3300292: Object003
+    3300294: Object004
+    3300296: Object005
+    3300298: Object531
+    3300300: Object532
+    3300302: Object533
+    3300304: Object534
+    3300306: Object535
+    3300308: Object536
+    3300310: Object537
+    3300312: Object540
+    3300314: Object541
+    3300316: Object542
+    3300318: Object552
+    3300320: Object553
+    3300322: Object554
+    3300324: Object571
+    3300326: Object572
+    3300328: Object580
+    3300330: Object585
+    3300332: Object586
+    3300334: Object587
+    3300336: Object588
+    3300338: Object589
+    3300340: Object610
+    3300342: Object611
+    3300344: Object612
+    3300346: Object613
+    3300348: Object614
+    3300350: Object615
+    3300352: Object616
+    3300354: Object617
+    3300356: Object618
+    3300358: Object619
+    3300360: Object620
+    3300362: Object621
+    3300364: Object622
+    3300366: Object623
+    3300368: Object624
+    3300370: Object625
+    3300372: Object626
+    3300374: Object627
+    3300376: Object628
+    3300378: Object629
+    3300380: Object630
+    3300382: Object631
+    3300384: Object632
+    3300386: Object633
+    3300388: Object634
+    3300390: Plane008
+    3300392: Plane009
+    3300394: Plane010
+    3300396: Plane011
+    3300398: Plane012
+    3300400: Plane016
+    3300402: Plane017
+    3300404: Plane018
+    4300000: Box001
+    4300002: 010
+    4300004: Cylinder040
+    4300006: Cylinder041
+    4300008: Cylinder042
+    4300010: Cylinder043
+    4300012: Box013
+    4300014: Cylinder044
+    4300016: Cylinder045
+    4300018: Cylinder046
+    4300020: Cylinder047
+    4300022: Box014
+    4300024: 012
+    4300026: 013
+    4300028: Box015
+    4300030: Cylinder050
+    4300032: Cylinder051
+    4300034: 014
+    4300036: Box016
+    4300038: Cylinder054
+    4300040: Cylinder055
+    4300042: 015
+    4300044: Box017
+    4300046: Cylinder058
+    4300048: Cylinder059
+    4300050: 016
+    4300052: Box018
+    4300054: Box019
+    4300056: Cylinder060
+    4300058: Cylinder061
+    4300060: Cylinder062
+    4300062: Cylinder063
+    4300064: Box020
+    4300066: Cylinder064
+    4300068: Cylinder065
+    4300070: Cylinder066
+    4300072: Cylinder067
+    4300074: Cylinder068
+    4300076: Cylinder069
+    4300078: 017
+    4300080: 018
+    4300082: 019
+    4300084: 020
+    4300086: Cylinder079
+    4300088: Cylinder080
+    4300090: Cylinder081
+    4300092: Cylinder082
+    4300094: Cylinder083
+    4300096: Cylinder084
+    4300098: Cylinder085
+    4300100: Object531
+    4300102: Object532
+    4300104: Object533
+    4300106: Object534
+    4300108: Object535
+    4300110: Object536
+    4300112: Object537
+    4300114: Box050
+    4300116: Box051
+    4300118: Box052
+    4300120: Cylinder068
+    4300122: Cylinder069
+    4300124: Object540
+    4300126: Object541
+    4300128: Object542
+    4300130: Object552
+    4300132: Object553
+    4300134: Object554
+    4300136: Object571
+    4300138: Box057
+    4300140: Object572
+    4300142: Object580
+    4300144: Object585
+    4300146: Object586
+    4300148: Object587
+    4300150: Object588
+    4300152: Object589
+    4300154: Object610
+    4300156: 028
+    4300158: 029
+    4300160: 030
+    4300162: Box076
+    4300164: Box077
+    4300166: Box078
+    4300168: Box079
+    4300170: Cylinder116
+    4300172: Cylinder117
+    4300174: Cylinder118
+    4300176: Cylinder119
+    4300178: Cylinder120
+    4300180: Cylinder121
+    4300182: Cylinder122
+    4300184: Cylinder123
+    4300186: Cylinder124
+    4300188: Cylinder125
+    4300190: Cylinder126
+    4300192: Cylinder127
+    4300194: 031
+    4300196: 032
+    4300198: 033
+    4300200: Box080
+    4300202: Box081
+    4300204: Box082
+    4300206: Box083
+    4300208: Cylinder128
+    4300210: Cylinder129
+    4300212: Cylinder130
+    4300214: Cylinder131
+    4300216: Cylinder132
+    4300218: Cylinder133
+    4300220: Cylinder134
+    4300222: Cylinder135
+    4300224: Cylinder136
+    4300226: Cylinder137
+    4300228: Cylinder138
+    4300230: Cylinder139
+    4300232: Deuropening
+    4300234: Box012
+    4300236: Cylinder013
+    4300238: Plane008
+    4300240: Cylinder070
+    4300242: Cylinder071
+    4300244: Cylinder072
+    4300246: Plane009
+    4300248: Cylinder073
+    4300250: Cylinder074
+    4300252: Plane010
+    4300254: Cylinder075
+    4300256: Cylinder076
+    4300258: Plane011
+    4300260: Cylinder077
+    4300262: Cylinder078
+    4300264: Plane012
+    4300266: Box021
+    4300268: Box022
+    4300270: Box023
+    4300272: Box024
+    4300274: Box025
+    4300276: Box026
+    4300278: Box027
+    4300280: Box028
+    4300282: Box029
+    4300284: Box030
+    4300286: Box031
+    4300288: Box032
+    4300290: Deuropening001
+    4300292: Box033
+    4300294: Object003
+    4300296: Box034
+    4300298: Object004
+    4300300: Box035
+    4300302: Object005
+    4300304: Box084
+    4300306: Box085
+    4300308: Box086
+    4300310: Box087
+    4300312: Cylinder140
+    4300314: Cylinder141
+    4300316: Plane016
+    4300318: Box088
+    4300320: Box089
+    4300322: Box090
+    4300324: Box091
+    4300326: Cylinder142
+    4300328: Cylinder143
+    4300330: Plane017
+    4300332: Box092
+    4300334: Box093
+    4300336: Box094
+    4300338: Box095
+    4300340: Cylinder144
+    4300342: Cylinder145
+    4300344: Plane018
+    4300346: Object611
+    4300348: Object612
+    4300350: Object613
+    4300352: Object614
+    4300354: Object615
+    4300356: Object616
+    4300358: Object617
+    4300360: Object618
+    4300362: Object619
+    4300364: Box096
+    4300366: Box097
+    4300368: Box098
+    4300370: Cylinder146
+    4300372: Cylinder147
+    4300374: Object620
+    4300376: Object621
+    4300378: Object622
+    4300380: Object623
+    4300382: Object624
+    4300384: Object625
+    4300386: Object626
+    4300388: Object627
+    4300390: Object628
+    4300392: Object629
+    4300394: Object630
+    4300396: Object631
+    4300398: Object632
+    4300400: Object633
+    4300402: Object634
+    4300404: Box001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: ab23ae627f0433703204681bba51b34b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brug
+    second: {fileID: 2100000, guid: f94374da8b81ba55cd9dad7f928d8a35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brug_platvorm
+    second: {fileID: 2100000, guid: 165434226ce918ddd35bb51f6512828b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buis
+    second: {fileID: 2100000, guid: 37eb4de8e0d9bb88b58dee2f72ca2ce6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: computer
+    second: {fileID: 2100000, guid: 8509feb120ca530719218e83d65eb602, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: deur
+    second: {fileID: 2100000, guid: 3d1398e1c8007066a69edd078102b675, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doom
+    second: {fileID: 2100000, guid: 59774627cf1a3f9626d3af55b1253a75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doom_dak
+    second: {fileID: 2100000, guid: 02a64dfa09274310f653e826d78b083e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: einde
+    second: {fileID: 2100000, guid: e394d19ee22ac2c621c54ac7c77de1d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hologram
+    second: {fileID: 2100000, guid: 9a5fe25e9a189c74cb30a33761433773, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: muur
+    second: {fileID: 2100000, guid: b540c3f599597962bee4ace695f9b26d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pilaar
+    second: {fileID: 2100000, guid: 03f7bb45d933d667fb19f8d3e12737a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: platvorm
+    second: {fileID: 2100000, guid: 437c1e9f573a94117151f08e621f0926, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sc_fi_muur_1
+    second: {fileID: 2100000, guid: 05112a0fd94d4b9c660e7b815cccb700, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sci_fi_buis_midden
+    second: {fileID: 2100000, guid: 6012db1e16150911bb992f7815b57698, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sci_fi_buis_onder
+    second: {fileID: 2100000, guid: c106e42208a6577850e3e536ed9cbbe5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sci_fi_buis_zijkant
+    second: {fileID: 2100000, guid: 906c52bd1ceeac152bd8d9c6829a9641, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sci_fi_muur_2
+    second: {fileID: 2100000, guid: d16c2b5b006a48b509e4588756e4fb43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sci_fi_pilaar
+    second: {fileID: 2100000, guid: 7a4b8ee32ec7b41e86d00e46182312df, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
